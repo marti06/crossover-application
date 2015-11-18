@@ -1,0 +1,56 @@
+@import "variable";
+
+.padding-top-20{
+  padding-top: $padding-20;
+}
+.padding-top-30{
+  padding-top: $padding-30;
+}
+.padding-left-10{
+  padding-left: $padding-left-10;
+}
+.padding-left-70{
+  padding-left: $padding-left-70;
+}
+.padding-right-50{
+  padding-right: $padding-right-50;
+}
+.padding-right-90{
+  padding-right: $padding-right-90;
+}
+.font-size-16{
+  font-size: $font-size-16;
+}
+.width-150{
+  width: $width-150 !important;
+}
+.width-100{
+  width: $width-100 !important;
+}
+.width-110{
+  width: $width-110 !important;
+}
+.width-70{
+  width: $width-70 !important;
+}
+.width-30{
+  width: $width-30 !important;
+}
+.font-color{
+  color: $black;
+}
+.shownClass{
+  width: 990px;
+}
+.border-top-Pending{
+  border-top: 5px solid $orange-border;
+}
+.border-top-Running{
+  border-top: 5px solid $blue-border;
+}
+.border-top-Passed{
+  border-top: 5px solid $green-text;
+}
+.border-top-Failed{
+  border-top: 5px solid $red-text;
+}

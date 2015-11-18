@@ -1,0 +1,96 @@
+@import "bourbon";
+@import "neat";
+@import "variable";
+@import "apps_buttons";
+@import "background";
+@import "sizes";
+
+section.table{
+  padding-left: 12em;
+  padding-right: 5em;
+  padding-top: 5em;
+}
+body{
+  background-color: $grey-light;
+}
+
+div.main_header ,div.details_header{
+  div.two_rows{
+    @include span-columns(1);
+  }
+  max-width: $table-max-width;
+  background-color: $white;
+  overflow: hidden;
+  color: $black;
+  border-left: 5px solid $grey;
+  //border-top: 0.5px solid $grey;
+  border-right: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  @include media($mobile){
+    @include outer-container;
+  }
+  &.Pending{
+    border-left: 5px solid $orange-border;
+  }
+  &.Passed{
+    border-left: 5px solid $green-border;
+  }
+  &.Running{
+    border-left: 5px solid $blue-border;
+  }
+  &.Failed{
+    border-left: 5px solid $red-border;
+  }
+}
+
+div.details_header{
+  height:150px;
+  width: 990px;
+  padding-left: 30px;
+}
+
+div.details_row{
+  @include media($desktop) {
+    @include span-columns(1 of 11);
+    text-align: center;
+    height: 35px;
+    color: $grey-table-text;
+  }
+}
+
+div.table_row{
+  @include media($desktop) {
+    @include span-columns(1 of 7);
+    text-align: center;
+    height: 55px;
+    color: $grey-table-text;
+  }
+  &.Pending{
+    color: $orange-text;
+  }
+  &.Running{
+    color: $blue-text;
+  }
+  &.Passed{
+    color: $green-text;
+  }
+  &.Failed{
+    color: $red-text;
+  }
+}
+
+div.table_row_header{
+  @include media($desktop) {
+    @include span-columns(1 of 7);
+    text-align: center;
+    color: $black;
+  }
+}
+
+div.shownClass, div.details_header{
+  div.two_rows{
+    @include span-columns(1);
+  }
+}

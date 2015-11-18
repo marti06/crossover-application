@@ -1,0 +1,92 @@
+@import "variable";
+
+.Pending{
+  color: $orange-text;
+}
+.Running{
+  color: $blue-text;
+}
+.Passed{
+  color: $green-text;
+}
+.Failed{
+  color: $red-text;
+}
+.background-Pending{
+  background-color: $orange-text;
+}
+.background-Running{
+  background-color: $blue-text;
+}
+.background-Passed{
+  background-color: $green-text;
+}
+.background-Failed{
+  background-color: $red-text;
+}
+.background-normal{
+  background-color:#d2d2d2;
+}
+.background-slash-Pending-none{
+  background-color: $grey;
+}
+.background-slash-Pending-pending{
+  background-color: $grey;
+}
+.background-slash-Running-running{
+  background-color: $blue-text;
+}
+.background-slash-Running-none{
+  background-color: $grey;
+}
+.background-slash-Passed-pass{
+  background-color: $green-text;
+}
+.background-slash-Failed-pass{
+  background-color: $red-text;
+}
+.background-slash-Failed-fail{
+  background-color: $grey;
+}
+.background-unitTest-pass-build-pass-status-Passed{
+  background-color: $green-text;
+}
+.background-unitTest-pending-build-pass-status-Pending{
+  background-color: $orange-text;;
+}
+.background-unitTest-none-build-pending-status-Pending{
+  background-color: $grey;;
+}
+.background-unitTest-pending-build-pending-status-Pending{
+  background-color: $grey;
+}
+.background-unitTest-fail-build-fail-status-Failed{
+  background-color: $grey;
+}
+.background-unitTest-pass-build-pass-status-Failed{
+  background-color: $red-text;
+}
+.background-unitTest-fail-build-pass-status-Failed{
+  background-color: $red-text;
+}
+.background-unitTest-none-build-running-status-Running{
+  background-color: $grey;
+}
+.background-unitTest-running-build-pass-status-Running{
+  background-color: $blue-text;
+}
+.background-unitTest-pass-functionalTest-pass-status-Passed{
+  background-color: $green-text;
+}
+.background-unitTest-pass-functionalTest-fail-status-Failed{
+  background-color: $red-text;
+}
+.background-unitTest-fail-functionalTest-none-status-Failed{
+  background-color: $grey;
+}
+.background-unitTest-none-functionalTest-none-status-Pending{
+  background-color: $grey;
+}
+.background-unitTest-none-functionalTest-none-status-Running{
+  background-color: $grey;
+}
